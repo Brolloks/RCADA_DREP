@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications"
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "paymentAddress": "addr1q9klc7c0tm2lhekuzrp383c6yw9gqlfwt0qqyuz9nwre6325zfe583em5jx5y7z24rjv6we4f0kv6newqjv74uhlvy9s050l8l", 
+    "givenName": "RCADA",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/Brolloks/RCADA_DREP/refs/heads/main/drep%20images/RCADA%20DREP%20LOGO_bkgcurve.png",
+      "sha256": "D79AACD2E7E0339028EC6E2A7465D466838C95EFF72E72CD13B3822E62BCDCA7"
+    },
+    "objectives": "RCADA's primary objectives as a Delegated Representative are:\n\nSustainability: To advocate for and support initiatives within the Cardano ecosystem that focus on environmental stewardship and sustainability.\n\nCommunity Voice: To ensure that the Cardano community’s voice is actively represented in governance, allowing ADA holders to influence decision-making processes.\n\nTransparency and Decentralization: To promote decentralization by remaining a single-pool operator and maintaining transparency in operations, donations and community engagement.",
+    "motivations": "We aim to foster sustainability, community and decentralized governance within Cardano. As a dedicated DRep, RCADA seeks to empower ADA holders by representing their values and supporting a transparent, secure and environmentally conscious blockchain ecosystem.",
+    "qualifications": "Active in Cardano Governance: RCADA has participated in all key Delegated Representative (DRep) and Constitutional Committee workshops in London, actively contributing to the shaping of Cardano’s governance processes.\n\nExperienced SPO: Extensive experience as a single-pool operator on Cardano mainnet, including operational testing on Preview and Preprod Testnets.\n\nMithril Signer Pool: Actively contributes to Cardano’s network security and efficiency as a Mithril signer.\n\nCommunity & Environmental Involvement: As a member of xSPO, CSPA, and CNC Alliances, RCADA advocates for environmental sustainability and decentralization within the Cardano ecosystem.\n\nEducational Background: Member of Midnight Dev, Marlowe program & completed the Cardano Foundation Alpha Blockchain course.\n\nFuture-Oriented Vision: Plans to establish a Cardano Educational Hub and permaculture farm to integrate blockchain education with real-world sustainability practices.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Website",
+        "uri": "https://www.stakecardanopool.com"
+      },
+      {
+        "@type": "Link",
+        "label": "Twitter / X",
+        "uri": "https://x.com/RcadaPool"
+      },
+      {
+        "@type": "Link",
+        "label": "Governance Records",
+        "uri": "https://brolloks.github.io/rcada-drep-votes/"
+      },
+      {
+        "@type": "Link",
+        "label": "Email",
+        "uri": "mailto:rick@rcada.dev"
+      }
+    ]
+  }
+}
